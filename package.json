@@ -2,7 +2,7 @@
   "name": "playwright_automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {"npx playwright test - project=chromium"},
+  "scripts": {"testCase":"npx playwright test - project=chromium"},
   "keywords": [],
   "author": "",
   "license": "ISC",
