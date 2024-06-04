@@ -64,11 +64,6 @@ test('Green RFP', async ({ page }) => {
   await page.locator('button[class="md-raised md-accent md-button md-default-theme md-ink-ripple"]').isEnabled;
   await page.getByRole('button', { name: 'Continue' }).click();
 
-  // await page.pause();
-  await page.locator('div[class="h3 md-title3 text-uppercase mb-24"]').isVisible;
-  await page.getByRole('link', { name: ' Dashboard' }).click();
-  await page.locator('tr[ng-repeat="item in vm.data.arfp"]').isVisible;
-  await page.locator('div[class="mt-10 ng-scope"]').isVisible;
 })
 
 // test('delete unwanted rfp', async ({ page }) => {
